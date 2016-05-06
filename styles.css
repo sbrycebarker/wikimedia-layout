@@ -1,1 +1,15 @@
+html, body{
+  display: block;
+}
+meta {
+  display: none;
+}
 
+style {
+  display: none;
+}
+
+.otherprojects {
+  display: flex;
+  flex-wrap: wrap;
+}
