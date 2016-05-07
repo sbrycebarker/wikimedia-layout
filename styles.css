@@ -1,8 +1,27 @@
-html, body{
+html, {
   display: block;
 }
 meta {
   display: none;
+}
+
+body {
+    background-color: white;
+    font: 13px/1.5 sans-serif;
+    margin: 0.3em 0;
+}
+
+div {
+    display: block;
+}
+
+#intro {
+    text-align: justify;
+    vertical-align: top;
+    width: 70%;
+    font-size: 150%;
+    margin: 0 auto;
+    padding: .5em 1em;
 }
 
 style {
@@ -10,6 +29,28 @@ style {
 }
 
 .otherprojects {
+  width: 80%;
+}
+.otherprojects {
+  font-weight: bold;
+  margin: 1.5em auto;
+    margin-top: 1.5em;
+    margin-right: auto;
+    margin-bottom: 1.5em;
+    margin-left: auto;
+  text-align: left;
+  vertical-align: middle;
+  width: 175px;
   display: flex;
-  flex-wrap: wrap;
+
+}
+
+.otherprojects-item {
+    height: 175px;
+    min-width: 150px;
+    max-width: 300px;
+    line-height: 175px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
 }
